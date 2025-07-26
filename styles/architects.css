@@ -114,25 +114,30 @@ main section{
 #quick-list{
   font-weight: 500;
 }
-/* section third */
-.third-part{
-  max-width: 1511px;
-  height: 1059px;
-  display: flex;
+
+
+/* feature section related styles */
+.features{
+  gap: 140px;
+}
+#feature-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.feature-card{
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: o 4px 30px 0 rgba(0,0,0,0.06);
+  margin-bottom: 20px;
 
 }
-.section-third{
-  max-width: 657px;
-  height: 983px;
-}
-.pic{
-  width: 800px;
-  height: 1059px;
-  margin-bottom: 200px;
-  padding: 50px;
-  ;
-}
+.feature-card .feature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
+}
 /* some fact related styles */
 .facts-container{
   display: grid;
